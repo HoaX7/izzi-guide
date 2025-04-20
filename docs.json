@@ -3,12 +3,13 @@
   "theme": "willow",
   "name": "Izzi Guide",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#3b82f6",
+    "light": "#3b82f6",
+    "dark": "#3b82f6"
   },
+  "errors": {"404": {"redirect": false}},
   "favicon": "/favicon.png",
-  "appearance": { "default": "system" },
+  "appearance": { "default": "dark" },
   "background": {
     "color": {
       "light": "#fff",
@@ -19,7 +20,10 @@
     "indexing": "all",
     "metatags": {}
   },
-  "logo": "/logo/dark.svg",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
   "footer": {
     "socials": {
       "discord": "https://discord.com/invite/AmkT99bTyd",
@@ -42,7 +46,39 @@
           {
             "group": "General",
             "pages": [
-              "general/voting"
+              {
+                "group": "Currencies",
+                "pages": [
+                  "general/currencies",
+                  "advanced/currencies"
+                ]
+              },
+              "general/card-drops",
+              "general/elements-and-rarity",
+              "general/inventory",
+              "general/filters",
+              "general/console",
+              "general/market",
+              "general/teams"
+            ]
+          },
+          {
+            "group": "Rewards",
+            "pages": [
+              "rewards/voting",
+              "rewards/daily-quests"
+            ]
+          },
+          {
+            "group": "Raids",
+            "pages": [
+              "raids/index"
+            ]
+          },
+          {
+            "group": "Advanced",
+            "pages": [
+              "advanced/enchantment"
             ]
           }
         ]
