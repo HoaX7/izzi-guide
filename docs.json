@@ -1,5 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
+  "description": "welcome to izzi guide",
   "theme": "willow",
   "name": "Izzi Guide",
   "colors": {
@@ -17,8 +18,7 @@
     }
   },
   "seo": {
-    "indexing": "all",
-    "metatags": {}
+    "indexing": "all"
   },
   "logo": {
     "dark": "/logo/dark.svg",
@@ -31,6 +31,13 @@
     }
   },
   "navigation": {
+    "global": {
+      "anchors": [{
+        "anchor": "Official Website",
+        "href": "https://izzi-xenex.xyz",
+        "icon": "link"
+      }]
+    },
     "versions": [
       {
         "version": "v1.0.0",
@@ -56,10 +63,24 @@
               "general/card-drops",
               "general/elements-and-rarity",
               "general/inventory",
+              "general/fodders",
               "general/filters",
               "general/console",
               "general/market",
-              "general/teams"
+              {
+                "group": "Items",
+                "pages": [
+                  "general/items",
+                  "general/item-shop"
+                ]
+              },
+              {
+                "group": "Teams",
+                "pages": [
+                  "general/teams",
+                  "general/equip-items-on-teams"
+                ]
+              }
             ]
           },
           {
@@ -72,13 +93,26 @@
           {
             "group": "Raids",
             "pages": [
-              "raids/index"
+              "raids/raids",
+              "raids/battle"
+            ]
+          },
+          {
+            "group": "Guilds",
+            "pages": [
+              "guilds/guilds",
+              "guilds/market",
+              "guilds/souls",
+              "guilds/shop"
             ]
           },
           {
             "group": "Advanced",
             "pages": [
-              "advanced/enchantment"
+              "advanced/enchantment",
+              "advanced/sacrifice",
+              "advanced/evolution",
+              "advanced/souls"
             ]
           }
         ]
