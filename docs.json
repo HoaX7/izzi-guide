@@ -67,6 +67,7 @@
                 ]
               },
               "general/card-drops",
+              "general/redirect-card-drops",
               "general/elements-and-rarity",
               "general/inventory",
               "general/fodders",
