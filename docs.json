@@ -8,6 +8,11 @@
     "light": "#3b82f6",
     "dark": "#3b82f6"
   },
+  "feedback": {
+    "thumbsRating": true,
+    "raiseIssue": true,
+    "suggestEdit": false
+  },
   "errors": {"404": {"redirect": false}},
   "favicon": "/favicon.png",
   "appearance": { "default": "dark" },
@@ -47,7 +52,8 @@
             "pages": [
               "welcome",
               "server-setup",
-              "start"
+              "start",
+              "faq"
             ]
           },
           {
@@ -71,6 +77,7 @@
                 "group": "Items",
                 "pages": [
                   "general/items",
+                  "general/item-info",
                   "general/item-shop"
                 ]
               },
@@ -79,6 +86,13 @@
                 "pages": [
                   "general/teams",
                   "general/equip-items-on-teams"
+                ]
+              },
+              {
+                "group": "Battling",
+                "pages": [
+                  "general/floors-and-zones",
+                  "general/battle"
                 ]
               }
             ]
