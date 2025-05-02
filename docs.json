@@ -95,7 +95,8 @@
                   "general/floors-and-zones",
                   "general/battle"
                 ]
-              }
+              },
+              "submitting-cards-and-skins"
             ]
           },
           {
@@ -128,6 +129,12 @@
               "advanced/sacrifice",
               "advanced/evolution",
               "advanced/souls"
+            ]
+          },
+          {
+            "group": "profile",
+            "pages": [
+              "profile/discord-profile"
             ]
           }
         ]
