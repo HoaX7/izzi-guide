@@ -74,6 +74,7 @@
               "general/filters",
               "general/console",
               "general/market",
+              "general/fruits",
               {
                 "group": "Items",
                 "pages": [
