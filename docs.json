@@ -41,6 +41,14 @@
         "anchor": "Official Website",
         "href": "https://izzi-xenex.xyz",
         "icon": "link"
+      }, {
+        "anchor": "Top 3 Cards for all Talents",
+        "href": "https://izzi-xenex.xyz/blogs/top-3-cards-for-each-ability-updated",
+        "icon": "link"
+      }, {
+        "anchor": "Related Articles",
+        "href": "https://izzi-xenex.xyz/blogs",
+        "icon": "link"
       }]
     },
     "versions": [
@@ -108,6 +116,15 @@
             ]
           },
           {
+            "group": "Advanced",
+            "pages": [
+              "advanced/enchantment",
+              "advanced/sacrifice",
+              "advanced/evolution",
+              "advanced/souls"
+            ]
+          },
+          {
             "group": "Raids",
             "pages": [
               "raids/raids",
@@ -124,12 +141,15 @@
             ]
           },
           {
-            "group": "Advanced",
+            "group": "Dark Zone",
             "pages": [
-              "advanced/enchantment",
-              "advanced/sacrifice",
-              "advanced/evolution",
-              "advanced/souls"
+              "dark-zone/index",
+              "dark-zone/battles",
+              "dark-zone/teams",
+              "dark-zone/transactions",
+              "dark-zone/market",
+              "dark-zone/enh-and-evo",
+              "dark-zone/misc"
             ]
           },
           {
