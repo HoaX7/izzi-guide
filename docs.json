@@ -132,6 +132,13 @@
             ]
           },
           {
+            "group": "Events",
+            "pages": [
+              "events/index",
+              "events/redeem-event-cards"
+            ]
+          },
+          {
             "group": "Guilds",
             "pages": [
               "guilds/guilds",
@@ -155,7 +162,8 @@
           {
             "group": "profile",
             "pages": [
-              "profile/discord-profile"
+              "profile/discord-profile",
+              "profile/web-profile"
             ]
           }
         ]
