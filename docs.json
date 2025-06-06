@@ -1,17 +1,23 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "description": "welcome to izzi guide",
-  "theme": "willow",
+  "theme": "mint",
   "name": "Izzi Guide",
   "colors": {
     "primary": "#3b82f6",
     "light": "#3b82f6",
     "dark": "#3b82f6"
   },
-  "feedback": {
-    "thumbsRating": true,
-    "raiseIssue": true,
-    "suggestEdit": false
+  "navbar": {
+    "links": [{
+      "label": "Support Server",
+      "href": "https://discord.com/invite/AmkT99bTyd"
+    }],
+    "primary": {
+      "type": "button",
+      "label": "Home",
+      "href": "https://izzi-xenex.xyz"
+    }
   },
   "errors": {"404": {"redirect": false}},
   "favicon": "/favicon.png",
@@ -23,7 +29,7 @@
     }
   },
   "seo": {
-    "indexing": "all"
+    "indexing": "navigable"
   },
   "logo": {
     "dark": "/logo/dark.svg",
@@ -38,10 +44,6 @@
   "navigation": {
     "global": {
       "anchors": [{
-        "anchor": "Official Website",
-        "href": "https://izzi-xenex.xyz",
-        "icon": "link"
-      }, {
         "anchor": "Top 3 Cards for all Talents",
         "href": "https://izzi-xenex.xyz/blogs/top-3-cards-for-each-ability-updated",
         "icon": "link"
